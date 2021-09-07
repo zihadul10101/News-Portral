@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from '../Header/Header';
-
 import Footer from '../Footer/Footer';
 import BlogNewsDetiles from '../BlogNewsDetiles/BlogNewsDetiles';
+import Navbar from '../Navbar/Navbar';
+
 const Home = () => {
     return (
         <div>
-          <Header></Header>
+          <Navbar />
           <BlogNewsDetiles />  
-          <Footer></Footer>
+          <Footer/>
         </div>
     );
 };
