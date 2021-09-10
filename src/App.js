@@ -6,10 +6,10 @@ import {
 } from "react-router-dom";
 import { createContext, useState } from 'react';
 import Deshbord from './components/Deshbord/Deshbord/Deshbord';
-import Authentication from './components/Authentication/Authentication';
 import Home from './components/FullPage/Home/Home';
 import AddNews from './components/Deshbord/AdminDeshbord/AddNews/AddNews';
 import AddAdmin from './components/Deshbord/AddAdmin/AddAdmin';
+import LogIn from './components/Authentication/LogIn/LogIn';
 export const UserContext=createContext();
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
         <Route path="/home">
           <Home></Home>
         </Route>
-        <Route path="signUp">
-          <Authentication></Authentication>
+        <Route path="/logIn">
+      <LogIn></LogIn>
         </Route>
         <Route path="/deshbord">
           <Deshbord></Deshbord>
@@ -37,8 +37,6 @@ function App() {
           <Home></Home>
         </Route>
       </Switch>
-
-
     </Router>
     </UserContext.Provider>
   );

@@ -1,3 +1,4 @@
+
 const firebaseConfig = {
     apiKey: "AIzaSyBuypVVlZYprlZ9aics4cvbEObM86op1fE",
     authDomain: "news-protal-728a9.firebaseapp.com",

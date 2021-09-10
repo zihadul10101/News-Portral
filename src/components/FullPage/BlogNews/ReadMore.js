@@ -9,7 +9,7 @@ const ReadMore = ({ children }) => {
     return (
         <div>
             <p className="text">
-                {isReadMore ? text.slice(0, 450) : text}
+                {isReadMore ? text.slice(0, 250) : text}
                 <span onClick={toggleReadMore} className="read-or-hide">
                     {isReadMore ? <button className="btn btn-danger">Read More</button> :   <button className="btn btn-danger">See Less</button>}
                 </span>
