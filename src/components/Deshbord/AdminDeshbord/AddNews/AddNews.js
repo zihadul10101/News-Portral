@@ -10,9 +10,11 @@ const AddNews = () => {
   const onSubmit = data => {
     console.log(data)
     const serviceData = {
-      name: data.name,
+      title: data.title,
       imageUrl: imageUrl,
-      price: data.price
+      catagroy: data.catagroy,
+      author:data.author,
+      decription:data.decription
     };
     const url = `http://localhost:5000/news`;
 
@@ -47,16 +49,26 @@ const AddNews = () => {
   }
     return (
         <div className="col-md-10 p-4 pr-5" style={{ position: "absolute", right: 0, backgroundColor: "#F4FDFB", textAlign: "center" }}>
-        <h5 className="text-brand">Add a Service</h5>
+        <h5 className="text-brand">Add A Hot News</h5>
         <form onSubmit={handleSubmit(onSubmit)}>
           Title:
-          <input {...register("name", { required: true })} />
-          {errors.name && <span>This field is required</span>}
+          <input {...register("title", { required: true })} />
+          {errors.title && <span>This field is required</span>}
           <br />
           <br />
-          Price:
-          <input {...register("price", { required: true })} />
-          {errors.price && <span>This field is required</span>}
+          Catagroy:
+          <input {...register("catagroy", { required: true })} />
+          {errors.catagroy && <span>This field is required</span>}
+          <br />
+          <br />
+          Author:
+          <input {...register("author", { required: true })} />
+          {errors.author && <span>This field is required</span>}
+          <br />
+          <br />
+          Decription:
+          <input {...register("decription", { required: true })} />
+          {errors.decriptionr && <span>This field is required</span>}
           <br />
           <br />
            Image:
@@ -65,7 +77,7 @@ const AddNews = () => {
           {errors.image && <span>This field is required</span>}
           <br />
           <br />
-          submit:
+     
           <input type="submit" />
         </form>
 

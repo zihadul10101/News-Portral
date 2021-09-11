@@ -2,37 +2,107 @@ import React from 'react';
 import './Footer.css';
 const Footer = () => {
     return (
-      <div class="footer-dark">
-      <footer>
-          <div class="">
-              <div class="row">
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>Services</h3>
-                      <ul>
-                          <li><a href="#">Web design</a></li>
-                          <li><a href="#">Development</a></li>
-                          <li><a href="#">Hosting</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-6 col-md-3 item">
-                      <h3>About</h3>
-                      <ul>
-                          <li><a href="#">Company</a></li>
-                          <li><a href="#">Team</a></li>
-                          <li><a href="#">Careers</a></li>
-                      </ul>
-                  </div>
-                  <div class="col-md-6 item text">
-                      <h3>Company Name</h3>
-                      <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                  </div>
-                  <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+  
+   
+        <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+        
+          <div class="container">
+        
+       
+            <div class="row">
+        
+         
+              <div class="col-lg-2 col-md-12 mb-4">
+        
+             
+                <div class="view overlay z-depth-1-half">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" class="img-fluid"
+                    alt=""/>
+                  <a href="">
+                    <div class="mask rgba-white-light"></div>
+                  </a>
+                </div>
+        
               </div>
-              <p class="copyright">Company Name © 2018</p>
+            
+              <div class="col-lg-2 col-md-6 mb-4">
+        
+          
+                <div class="view overlay z-depth-1-half">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(78).jpg" class="img-fluid"
+                    alt=""/>
+                  <a href="">
+                    <div class="mask rgba-white-light"></div>
+                  </a>
+                </div>
+        
+              </div>
+            
+              <div class="col-lg-2 col-md-6 mb-4">
+        
+               
+                <div class="view overlay z-depth-1-half">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(79).jpg" class="img-fluid"
+                    alt=""/>
+                  <a href="">
+                    <div class="mask rgba-white-light"></div>
+                  </a>
+                </div>
+        
+              </div>
+          
+              <div class="col-lg-2 col-md-12 mb-4">
+        
+           
+                <div class="view overlay z-depth-1-half">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(81).jpg" class="img-fluid"
+                    alt=""/>
+                  <a href="">
+                    <div class="mask rgba-white-light"></div>
+                  </a>
+                </div>
+        
+              </div>
+            
+              <div class="col-lg-2 col-md-6 mb-4">
+        
+              
+                <div class="view overlay z-depth-1-half">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).jpg" class="img-fluid"
+                    alt=""/>
+                  <a href="">
+                    <div class="mask rgba-white-light"></div>
+                  </a>
+                </div>
+        
+              </div>
+            
+              <div class="col-lg-2 col-md-6 mb-4">
+        
+           
+                <div class="view overlay z-depth-1-half">
+                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(84).jpg" class="img-fluid"
+                    alt=""/>
+                  <a href="">
+                    <div class="mask rgba-white-light"></div>
+                  </a>
+                </div>
+        
+              </div>
+            
+        
+            </div>
+      
+        
           </div>
-      </footer>
-  </div>
-
+          
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> hotnews.com</a>
+          </div>
+       
+        
+        </footer>
+    
     
     );
 };
